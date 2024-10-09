@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button {
+    font-size: 12px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 157, 157);
+    cursor: pointer;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+    border: none;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.label-element {
+    color: rgb(211, 206, 206);
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+}
+.input {
+    height: 25px;
+    padding: 3px 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.card {
+    background-color: rgb(42, 40, 40);
+    padding: 10px;
+    border: 1px solid #615d5d;
+    border-radius: 5px;
+    color: #ffffff;
+    min-width: 280px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+}
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.posts-container {
+    background-color: rgb(33, 30, 30);
+    padding: 20px;
+    border-radius: 10px;
+}
+.result-container {
+    background-color: rgb(33, 30, 30);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 200px;
+}
+.chain-content {
+    text-align: center;
+}
